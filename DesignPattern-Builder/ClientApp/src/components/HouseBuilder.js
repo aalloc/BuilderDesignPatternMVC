@@ -17,6 +17,7 @@ export class HouseBuilder extends Component {
         .then(data => {
             this.setState({ products: data, loading: false, type : "modern" });
     });
+
      
     };
     onAddItem(event, type){
