@@ -1,8 +1,4 @@
 ﻿using DesignPattern_Builder.BuilderDesignPattern.MealPlanner.Product;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DesignPattern_Builder.BuilderDesignPattern.MealPlanner.Builder
 {

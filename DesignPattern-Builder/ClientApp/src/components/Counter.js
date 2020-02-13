@@ -7,12 +7,6 @@ export class Counter extends Component {
     super(props);
     this.state = { currentCount: 0 };
       this.incrementCounter = this.incrementCounter.bind(this);
-      fetch('api/RobotBuilder/ConstructRobot?type=solid')
-          .then(response => response.json())
-          .then(data => {
-              this.setState({ products: data, loading: false, type: "modern" });
-
-          });
   }
 
   incrementCounter () {

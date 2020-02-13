@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DesignPattern_Builder.BuilderDesignPattern.MealPlanner.Product
 {
@@ -13,6 +10,7 @@ namespace DesignPattern_Builder.BuilderDesignPattern.MealPlanner.Product
         }
         public Guid Id { get; set; }
         public string Name { get; set; }
+
         public string Veggie { get; set; }
         public string MainCourse { get; set; }
         public string Drinks { get; set; }

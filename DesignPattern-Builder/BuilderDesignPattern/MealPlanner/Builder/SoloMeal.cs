@@ -1,8 +1,4 @@
 ﻿using DesignPattern_Builder.BuilderDesignPattern.MealPlanner.Product;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DesignPattern_Builder.BuilderDesignPattern.MealPlanner.Builder
 {
@@ -24,12 +20,12 @@ namespace DesignPattern_Builder.BuilderDesignPattern.MealPlanner.Builder
 
         public void AddDessert()
         {
-            _meal.Dessert = "Cheese Cake";
+            _meal.Dessert = "Blueberry Cheesecake";
         }
 
         public void AddDrinks()
         {
-            _meal.Drinks = "Root Beer";
+            _meal.Drinks = "Red Wine";
         }
 
         public void AddMainCourse()
